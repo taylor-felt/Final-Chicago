@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>Chicago</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<!-- Start Header -->
+<header>
+      <div class="final">
+  <h1>FI<span style="color:black; font-weight:bolder;">NAL</span></h1></div>
+  <body>
+    <div class="menu">
+    <div class="chi">
+      <ul>
+        <li>
+          <a href="#about">Downtown</a>
+        </li>
+        <li>
+          <a href="#extrapage">News</a>
+        </li>
+        <li>
+          <a href="#contact-info">Contact</a>
+        </li>
+        <li>
+          <a href="block">Gallery</a>
+        </li>
+    </ul>
+  </div>
+  </div>
+</header>
+<section id="banner">
+  <div class="header-box">
+    <h1><b>Chi</b>cago</h1>
+  </div>
+  </div>
+</section>
+<!-- End Header -->
+<!-- Start About Section -->
+<section id="about">
+  <div class="img-box">
+  <div class="img-container">
+  </div>
+  </div>
+<div class="about-info">
+<div class="about-content">
+<h1>Downtown Chicago</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br></br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+<div class="about-sections">
+<div class="sections">
+
+<h2>Culture <i class="fa fa-coffee"></i><br> </h2><br></br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class>
+<h2>Buisiness District <i class="fa fa-bitcoin"></i> </h2><br></br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div>
+<h2>History <i class="fa fa-header"></i></h2><br></br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div>
+<h2>Crime <i class="fa fa-hand-o-right"></i></h2><br></br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+</div>
+</section>
+<!--About Me Ends-->
+<div class="quotation">
+<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+<script>
+var howOften = 5;
+var current = 0;
+var ns6 = document.getElementById&&!document.all;
+var items = new Array();
+items[0]='"I dont know the key to success, but the key to failure is trying to please everybody." -Bill Cosby'
+items[1]='"My fingers are long and beautiful, as, it has been well documented, are various other parts of my body." -Donald J. Trump';
+items[2]='"A Zebra does not change its spots." -Al Gore';
+items[3]='"People dont elect US Presidents, God does." -Sarah Palin'
+items[4]='"There is no such thing as paranoia. Your worst fears can come true at any moment." -Hunter S Thompson'
+items[5]='"I love Mickey Mouse more than any Woman I have ever known." -Walt Disney';
+function rotater() {
+document.getElementById("placeholder").innerHTML = items[current];
+current = (current==items.length-1) ? 0 : current + 1;
+setTimeout("rotater()",howOften*1000);
+}
+function rotater() {
+if(document.layers) {
+document.placeholderlayer.document.write(items[current]);
+document.placeholderlayer.document.close();
+}
+if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+if(document.all)
+    placeholderdiv.innerHTML=items[current];
+current = (current==items.length-1) ? 0 : current + 1;
+setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+</script>
+</div>
+<!-- New section -->
+<section id="block">
+<img class="imgsize" img src="img/History.jpg">
+<img class="imgsize" img src="img/summer-sunshine-alcohol-drink.jpg">
+<img class="imgsize" img src="img/Bean1.jpg">
+</div>
+<img class="imgsize" img src="img/chicago-in-a-winter-night.jpg">
+<img class="imgsize" img src="img/Bay.jpg">
+<img class="imgsize" img src="img/chicago-690364.jpg">
+</article>
+</div>
+</section>
+<section id="extrapage">
+<div class="rss">
+<iframe width="500px" height="900px" style="border:none;" src="http://output19.rssinclude.com/output?type=iframe&amp;id=1078065&amp;hash=2371396c8a4b840484401de566a7ab90"></iframe></div>
+<div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33611.815399226245!2d-87.6491200727578!3d41.87365229804029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd35275c5ce91%3A0xdb7b2d079c6d05ce!2sNear+North+Side%2C+Chicago%2C+IL!5e0!3m2!1sen!2sus!4v1462931858659" width="600" height="552" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+</section>
+<section id="contact-info">
+<h1>Contact Form</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</br><h3>
+123 Sesame St.<br>
+Fresno, CA 93711<br></br>
+<p><b>Email: </b><ins>tchf92lt@gmail.com</ins></p><p><b>Phone: </b><ins>832.701.5534</ins></p>
+</section>
+<section id="contact">
+<div class="form-box">
+<h1>Email Us</h1>
+<form action="submit" method="post">
+<div>
+<label for="name"></label>
+<input type="text" placeholder="Name"/>
+</div>
+<div>
+<label for="email"></label>
+<input type="email" placeholder="Email"/>
+</div>
+<div>
+<textarea placeholder="Message"></textarea>
+</div>
+<div>
+<button type="submit">Send</button>
+</div>
+</form>
+</div>
+</section>
+<footer>
+    <div class="copyright">
+      <p>Powered by &copy;T. Felt</p>
+    </div>
+    <div class="sm-icons">
+      <div class="icon">
+        <a href="facebook.com">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="twitter.com">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="linkedin.com">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

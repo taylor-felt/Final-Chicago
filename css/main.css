@@ -1,0 +1,294 @@
+body, html{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  font-weight: 500;
+  font-size: 36pt;
+}
+h2{
+  font-weight:bold;
+  font-size: 14pt;
+  float: left;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#banner{
+  background: url("../img/train.jpg");
+  height: 1000px;
+  width: 1300px;
+  background-size: cover;
+  background-position: top;
+  background-attachment:inherit;
+  padding-left: 45px;
+  border-right:3px solid black;
+
+}
+.final{
+  width: 135px;
+  height: 50px;
+  float: left;
+  background-color: grey;
+  color:white;
+  margin: 50px 0 0 35px;
+  }
+header{
+  height: 150px;
+  width: 1345px;
+  background-color: black;
+  position:fixed;
+}
+.header-box{
+  width: 500px;
+  height: 100px;
+  margin-left: 553px;
+  padding-top: 15px;
+}
+.header-box h1{
+  margin-left: 50;
+}
+.chi h2 {
+  padding-left: 100px;
+  height: 15px;
+  color: white;
+  align-items: center;
+}
+#banner h1{
+  color: white;
+  text-align:inherit;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+  position: fixed;
+  font-weight:100;
+}
+.menu{
+ font-size: 15px;
+ height: 100%;
+ margin-left: 30%;
+ color: white;
+}
+.menu ul{
+ color: white;
+}
+.menu a{
+  color: white;
+}
+.menu a:hover{
+  color: grey;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+header .menu li{
+ text-align: center;
+ display:inline-block;
+ padding: 30px;
+ padding-left: 50px;
+ margin-top: 80px;
+}
+#block{
+  width: 1345px;
+  height: 625px;
+  background-color: #3b3a35;
+  float: left;
+  border-right: 3px solid black;
+}
+.imgsize{
+  height: 270px;
+  width: 390px;
+  margin-left: 45px;
+  float: left;
+  padding: 20px 0px;
+}
+#about{
+  width: 1345px;
+  height: 600px;
+  background-color: #3b3a35;
+  color: white;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+.img-box{
+  height: 100%;
+  width: 500px;
+  float: left;
+}
+.img-container{
+  height: 100%;
+  width: 625px;
+  background: url("../img/Chicago buisness cold.jpg");
+}
+#about img{
+  height: 500px;
+  width: inherit;
+}
+.about-info{
+  height: relative;
+  width: 600px;
+  float: left;
+  padding-left: 175px;
+}
+.about-content{
+  height: auto;
+  width: inherit;
+  text-align: center;
+}
+.about-content h1{
+  text-align: center;
+}
+.about-sections div{
+  width: 200px;
+  float: left;
+  margin: 0 40px;
+  padding-left: 130px;
+  padding-top: 25px;
+}
+#about p{
+  text-align: left;
+}
+.quotation{
+  height: 100px;
+  width: 1342px;
+  text-align: center;
+  background-color: #b0c4de;
+  padding-top: 75px;
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#extrapage{
+  width: 1252px;
+  height: 620px;
+  background-color: #3b3a35;
+  float: left;
+  padding: 10px;
+  padding-left: 80px;
+  border-bottom:3px solid black;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+#extrapage .map-container{
+  padding: 5px;
+  padding-left: 25px;
+  float: left;
+}
+#extrapage .rss {
+  float: left;
+  height: 900px;
+  padding-left: 15px;
+}
+#contact{
+  height: 450px;
+  width: 600px;
+  display: inline-block;
+  float:inherit;
+  background-color: black;
+  color: black;
+}
+#contact h1{
+  text-align: center;
+}
+.form-box{
+  height: 450px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #b0c4de;
+  padding: 50px;
+  float: left;
+  color: black;
+  border-right: 3px solid black;
+}
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px 0;
+  background-color: #b0c4de;
+  border-color: black;
+  color: black;
+}
+#contact textarea{
+  height: 200px;
+  width: 100%;
+  margin: 10px auto;
+  padding-top: 10px;
+  background-color: #b0c4de;
+  border: 2px solid black;
+  color: black;
+}
+#contact button{
+  height: 40px;
+  width: 125px;
+  background-color: #ffc955;
+  border: 5px solid orange;
+  font-size: 18pt;
+}
+#contact button:hover{
+  background-color: orange;
+}
+#contact-info{
+  height: 500px;
+  width: 615px;
+  background-color: #b0c4de;
+  float: left;
+  padding-top: 50px;
+  padding-left: 30px;
+  color: black;
+}
+#contact-info h1{
+  font-weight:normal;
+  text-align: center;
+}
+::-webkit-input-placeholder {
+   color: black;
+   font-family: serif;
+}
+#contact-info p{
+  font-weight: normal;
+}
+footer{
+  height: 200px;
+  width:1345px;
+  background-color: #3b3a35;
+  clear:both;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+
+}
+
+.copyright p{
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+.icon i{
+  font-size: 2em;
+  color:#333;
+  padding: 10px;
+}
+.icon:hover{
+  background-color: black;
+}
